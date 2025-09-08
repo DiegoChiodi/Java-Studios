@@ -4,8 +4,8 @@ public class Data {
 	int mes;
 	int ano;
 	
-	public void exibir()
+	public String exibir()
 	{
-		System.out.println(dia + "/" + mes + "/" + ano);
+		return dia + "/" + mes + "/" + ano;
 	}
 }
